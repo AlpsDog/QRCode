@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="将二维码放入框内，即可自动扫描"
+        android:textColor="@color/color_ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_100"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/lamp_iv"
+            android:layout_width="@dimen/spacing_80"
+            android:layout_height="@dimen/spacing_80" />
+    </RelativeLayout>
+</RelativeLayout>
